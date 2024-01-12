@@ -1,9 +1,7 @@
 /* Import work sans font form Google fonts */
-
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap");
 
-/* Common styles */
-
+/* Common shared styles */
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +30,6 @@ p {
   padding: 20px 25px;
   font-weight: 400;
   margin-top: 40px;
-
 }
 .center {
   text-align: center;
@@ -66,7 +63,6 @@ img {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
 /* Banner styles */
 .banner .contents {
   width: 80%;
@@ -82,8 +78,20 @@ img {
   margin: 45px 0;
 }
 
+/* Footer styles */
+footer .container {
+  border-radius: 8px;
+  background: #fff4e7;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+footer p {
+  padding: 40px 0;
+}
+
 /* Responsive Media Queries  */
 
+/* Responsive for small devices */
 @media screen and (max-width: 576px) {
   nav {
     flex-direction: column;
@@ -92,6 +100,7 @@ img {
     width: 95%;
   }
 }
+/* Responsive for Medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   nav {
     flex-direction: column;
