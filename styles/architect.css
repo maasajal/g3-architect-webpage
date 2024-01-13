@@ -146,6 +146,25 @@ img {
   font-weight: 500;
 }
 
+/* Facts styles */
+.facts > h2 {
+  margin: 1.5rem auto;
+}
+.facts > p {
+  width: 50%;
+}
+.facts-card-container {
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 35px;
+}
 /* Footer styles */
 footer .container {
   border-radius: 8px;
@@ -161,7 +180,8 @@ footer p {
 
 /* Responsive for small devices */
 @media screen and (max-width: 576px) {
-  nav {
+  nav,
+  .facts-card-container {
     flex-direction: column;
   }
   .banner .banner-contents {
